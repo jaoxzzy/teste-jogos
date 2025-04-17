@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caça-Palavras - Diabetes</title>
+  <link rel="stylesheet" href="css/caça-style.css">
+</head>
+<body>
+  <h1>Caça-Palavras: Cuidados com a Diabetes</h1>
+  <div id="timer">Tempo: <span id="time">00:00</span></div>
+  <div id="game">
+    <div class="grid" id="grid"></div>
+    <div id="word-list"></div>
+    <div id="message"></div>
+  </div>
+
+  <!-- Áudios -->
+  <audio id="success-sound" src="success.mp3" preload="auto"></audio>
+  <audio id="time-over-sound" src="timeout.mp3" preload="auto"></audio>
+
+  <!-- Botões -->
+  <div id="controls">
+    <button id="restart-button">Reiniciar Jogo</button>
+    <button id="home-button">Voltar à Tela Inicial</button>
+    <button id="next-game-button">Próximo Jogo</button>
+  </div>
+
+  <script src="caça-script.js"></script>
+</body>
+</html>
